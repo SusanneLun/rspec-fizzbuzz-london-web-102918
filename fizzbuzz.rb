@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  if int % 5 == 0 && int % 3 == 0
+  if int % 5 == 0 and int % 3 == 0
     puts "FizzBuzz"
     elsif
-    int % 3 == 0 && int % 5 !== 0
+    int % 3 == 0 and int % 5 != 0
     puts "Fizz"
     elsif 
-    int % 5 == 0 && int % 3 !== 0 
+    int % 5 == 0 and int % 3 != 0 
     puts "Buzz"
   else
     puts "nil"
